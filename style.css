@@ -1,0 +1,143 @@
+
+/* Google Fonts  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@300;400;700&display=swap');
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courgette", cursive;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  background-image:  url('assets/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .main_container {
+  background-color: rgba(216, 219, 219, 0.808);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+section .main_container h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 2.6rem;
+  color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .main_container h1 i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.3rem;
+}
+
+section .main_container .input_group {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+section .main_container .input_group img {
+  height: 2rem;
+  width: 2rem;
+}
+
+section .main_container .input_group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
+
+section .main_container .input_group input::placeholder {
+  opacity: 0.6;
+}
+
+/* .button_container {
+  background-color: darkblue;
+} */
+
+.button_container button {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  background-color: crimson;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+.button_container button i {
+  margin-right: 0.3rem;
+}
+
+.button_container button:hover {
+  background-color: white;
+  color: crimson;
+  transition: 0.3s;
+}
+
+.output {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: top 0.3s;
+}
+
+.output .main_container h1 {
+  color: black;
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+}
+
+.output .main_container h1 span {
+  color: crimson;
+}
+
+.output .main_container p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.output .main_container p span {
+  font-size: 6rem;
+  color: crimson;
+}
+
+.side-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10rem;
+    width: auto;
+    display: none;
+  }
+  
+  .side-image.left {
+    left: 10rem;
+  }
+  
+  .side-image.right {
+    right: 10rem;
+  }
+  

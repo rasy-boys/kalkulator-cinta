@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/love_calculator_favicon.png" type="image/x-icon">
+    <meta name="keywords" content="Love Calculator">
+    <meta name="description" content="Love Calculator is a very interesting tool that allows you to calculate your love score. Get the score of your love with love calculator and share it.">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@300;400;700&display=swap">
+    
+    <meta property="og:title" content="Love Calculator - Calculate Your Love" />
+    <meta property="og:url" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCUMqr2QTl6TiGK6KwZI5AqkRs64CnuWm0blj13aR7ulK8J5nSVKJNARon6D_tzbZte9G6eQ9cX1jrSyO-Ya5mhKJNgD4in1eZ5xIPRSiMhpa2OO1OG0rRg6OpywiylO6D2ONdu417DweCpMAlKhrIdaWS3pceg83ZYwpGSkbjwYrviUIJ3EkglX-y/s16000/love%20calculator.PNG" />
+    <meta property="og:image" content="assets/love_calculator.PNG" />
+    <meta name="og:description" content="Love Calculator is a very interesting tool that allows you to calculate your love score. Get the score of your love with love calculator and share it." />
+
+    <title>Love Calculator - Calculate Your Love</title>
+</head>
+
+<body>
+   
+
+    <section class="input">
+        <div class="main_container">
+            <style>
+                .custom-icon-size {
+                    width: 60px; /* Sesuaikan ukuran lebar */
+                    height: 60px; /* Sesuaikan ukuran tinggi */
+                }
+            </style>
+              
+            <center><img src="assets/heart.png" alt="Custom Image" class="custom-icon-size"></center>
+          
+            <h1>Kalkulator Cinta </h1>
+            <div class="input_group">
+                <img src="assets/in-love.png" alt="In Love Icon">
+                <input type="text" id="boyfriend" placeholder="Name of Boyfriend">
+            </div>
+
+            <div class="input_group">
+                <img src="assets/in-love.png" alt="In Love Icon">
+                <input type="text" id="girlfriend" placeholder="Name of Girlfriend">
+            </div>
+
+            <div class="button_container">
+                <button type="button" id="calculate_love"><i class="bi bi-heart-half"></i> Mari Ukur Cintamu</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="output">
+        <!-- Images that will change based on the love score -->
+      
+        <div class="main_container">
+            <h1>Skor Cinta</h1>
+            <h1><span id="output_boyfriend">boyfriend</span> dan <span id="output_girlfriend">girlfriend</span></h1>
+            <p><span id="love_score">5</span>/10</p>
+            <div class="button_container">
+                <button type="button" id="go_back"><i class="bi bi-heart-half"></i> Kembali</button>
+            </div>
+        </div>
+       
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
